@@ -190,11 +190,23 @@
                         <img src="img/portfolio/Limitless_Hardwood.jpg" width= "350" height ="200" alt="">
                         <h3>Limitless Hardwood</h3>
                     </a>
-                </div>                
+                </div> 
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/DJarvis.png" width= "350" height ="200" alt="">
+                        <h3>DJarvis</h3>
+                    </a>
+                </div>                                 
 
             </div>
         </div>
-    </section>
+    </section>f
 
     <!-- Footer -->
 <section id="footer-section">
@@ -445,6 +457,48 @@
             </div>
         </div>
     </div>    
+
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>DJarvis</h2>
+                            <hr class="star-primary">
+                            <p></p>
+                            <p>A HackIllinois 2017 36 hour hackathon.</p>
+                            <p>DJarvis - You're very own personal music assistant was made with the noble purpose of helping you cheer up or continue you're mood of relaxation. It integrates with the Microsoft Cognitive API to give the user a careful analysis of his/her feeling's and then alleivates, calms, or continues the current state of mind by playing music with respect to a parameter called valence which is integrated with the Spotify Web API. A valence parameter brought in using the Spotify Web API, which ranges from 0-1 helps convey the positivity of the song and compares with the Cognitive APIs detection of emotions of the person and this coherency helps achieve the ideal playlist whether the user is sad or happy.
+
+                            My Contributions:
+                            <ul>
+                            <li> Thought of the idea, and the product design and architecture.
+                            <li> Building the Node.js server side infrastructure.
+                            <li> Integrating webcam picture application using getUserMedia and displaying on a canvas and using Microsoft BlobStorage to save it to the cloud.
+                            <li> Using Microsoft Cognitive Emotions API to get the user clicked image's happiness level to send to server for Spotify song selection.
+                            </p>
+                            </ul>
+                            
+                            <img src="img/portfolio/DJarvis.png" height = "200" width = "400" alt="">
+                            <a href = "https://github.com/hthatukuru/Moodify" ><p>View code on Github</p></a>
+                            <a href = "https://www.youtube.com/watch?v=lgpRvocmgg0" ><p>See it happen!(Video)</p></a>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>UIUC Hacakthon 2017</a></strong>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
